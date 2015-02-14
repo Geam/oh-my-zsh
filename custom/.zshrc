@@ -45,7 +45,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(tmux git laravel)
+plugins=(tmux git laravel4)
 
 # User configuration
 
@@ -78,3 +78,4 @@ source $ZSH/oh-my-zsh.sh
 # Personnal aliases
 alias rl="source $HOME/.zshrc"
 alias modsh="vim $HOME/.zshrc"
+alias artisan="php artisan"
